@@ -10,3 +10,5 @@
 - `git log` Tras todos os commits com todas as modificações
 - `git log --oneline` Faz o mesmo só que traz o resultado mais enchuto
 - `git log` --oneline -n 2 (retorna os ultimos dois commits apenas)
+- `gt push origin main': Envia seus commits do repositório local para o remoto (branch `main`),
+- `git pull origin main :` Baixa os commits do do remoto para o local'
