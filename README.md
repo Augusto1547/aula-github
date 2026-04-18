@@ -10,3 +10,13 @@
 - `git log` Tras todos os commits com todas as modificações
 - `git log --oneline` Faz o mesmo só que traz o resultado mais enchuto
 - `git log` --oneline -n 2 (retorna os ultimos dois commits apenas)
+
+## Fluxo de Trabalho (dia a dia)
+
+
+1. Criar nova branch
+2. Aplicar mudanças com commits atômicos
+3. Enviar commits para o repositório remoto 
+4. Abrir _pull request
+5. Indicar revisores
+6. Após revisão, dar o merge. branch
