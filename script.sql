@@ -10,3 +10,7 @@ create table tb_alunos (
 
 insert into treina_recife.tb_alunos ('id', 'nome', 'email', 'data_nascimento')
 values (1, "Alexandre de Souza Jr.", "alexandre@treinarecife.com.br", timestamp '1995-07-28');
+
+delete from treina_recife.tb_alunos where id = 1;
+
+drop table treina_recife.tb_alunos;
